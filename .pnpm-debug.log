@@ -1,0 +1,12 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "Subject parameter value width cannot be greater than the container width.",
+      "stack": "Error: Subject parameter value width cannot be greater than the container width.\n    at alignString (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86861:15)\n    at C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86906:45\n    at Array.map (<anonymous>)\n    at C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86901:22\n    at Array.map (<anonymous>)\n    at alignTableData (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86900:19)\n    at Object.table (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88640:42)\n    at renderDescriptionList (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88721:32)\n    at Object.renderHelp [as default] (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88754:5)\n    at Object.help (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:116443:35)"
+    }
+  }
+}
