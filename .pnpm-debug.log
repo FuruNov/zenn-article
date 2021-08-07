@@ -2,11 +2,46 @@
   "0 debug pnpm:scope": {
     "selected": 1
   },
-  "1 error pnpm": {
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "dependencies": {
+        "zenn-cli": "^0.1.93"
+      },
+      "devDependencies": {
+        "textlint": "^12.0.2",
+        "textlint-rule-preset-ja-spacing": "^2.2.0",
+        "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+        "textlint-rule-preset-jtf-style": "^2.3.12",
+        "textlint-rule-spellcheck-tech-word": "^5.0.0",
+        "textlint-rule-web-plus-db": "^1.1.5"
+      }
+    },
+    "prefix": "C:\\Users\\Owner"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "C:\\Users\\Owner\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\Users\\Owner\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\Owner",
+    "stage": "resolution_started"
+  },
+  "4 warn pnpm": {
+    "message": "Moving textlint-rule-preset-jtf-style that was installed by a different package manager to \"node_modules/.ignored",
+    "prefix": "C:\\Users\\Owner"
+  },
+  "5 error pnpm": {
+    "errno": -4048,
+    "code": "EPERM",
+    "syscall": "rename",
+    "path": "C:\\Users\\Owner\\node_modules\\textlint-rule-preset-jtf-style",
+    "dest": "C:\\Users\\Owner\\node_modules\\.ignored\\textlint-rule-preset-jtf-style",
     "err": {
       "name": "Error",
-      "message": "Subject parameter value width cannot be greater than the container width.",
-      "stack": "Error: Subject parameter value width cannot be greater than the container width.\n    at alignString (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86861:15)\n    at C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86906:45\n    at Array.map (<anonymous>)\n    at C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86901:22\n    at Array.map (<anonymous>)\n    at alignTableData (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:86900:19)\n    at Object.table (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88640:42)\n    at renderDescriptionList (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88721:32)\n    at Object.renderHelp [as default] (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:88754:5)\n    at Object.help (C:\\Users\\Owner\\AppData\\Roaming\\npm-cache\\_npx\\21388\\node_modules\\pnpm\\dist\\pnpm.cjs:116443:35)"
+      "message": "EPERM: operation not permitted, rename 'C:\\Users\\Owner\\node_modules\\textlint-rule-preset-jtf-style' -> 'C:\\Users\\Owner\\node_modules\\.ignored\\textlint-rule-preset-jtf-style'",
+      "code": "EPERM",
+      "stack": "Error: EPERM: operation not permitted, rename 'C:\\Users\\Owner\\node_modules\\textlint-rule-preset-jtf-style' -> 'C:\\Users\\Owner\\node_modules\\.ignored\\textlint-rule-preset-jtf-style'"
     }
   }
 }
