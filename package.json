@@ -3,7 +3,6 @@
 	"devDependencies": {
 		"zenn-cli": "^0.1.93"
 	},
-  
 	"scripts": {
 		"init": "zenn init",
 		"preview": "zenn preview"
