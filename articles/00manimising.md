@@ -1,8 +1,8 @@
 ---
 title: "Demo"
 emoji: "📑"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Demo"]
+type: "tech"
+topics: ["Python", "Manim", "統計物理学"]
 published: false
 --- 
 
