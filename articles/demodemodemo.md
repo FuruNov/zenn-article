@@ -1,8 +1,8 @@
 ---
-title: "iPad と Android タブレットってどう違うの？"
+title: "_Demo"
 emoji: "📑"
 type: "idea"
-topics: ["iPad", "Android"]
+topics: ["demo"]
 published: false
 --- 
 

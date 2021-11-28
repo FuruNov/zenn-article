@@ -1,8 +1,8 @@
 ---
-title: "Demo"
+title: "イジングモデル"
 emoji: "📑"
-type: "tech"
-topics: ["Python", "Manim", "統計物理学"]
+type: "idea"
+topics: ["demo"]
 published: false
 --- 
 
