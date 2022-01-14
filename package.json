@@ -1,11 +1,10 @@
 {
 	"name": "zenn",
-	"devDependencies": {},
 	"scripts": {
 		"init": "zenn init",
 		"preview": "zenn preview"
 	},
 	"dependencies": {
-		"zenn-cli": "^0.1.99"
+		"zenn-cli": "^0.1.101"
 	}
 }
