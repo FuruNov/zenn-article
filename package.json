@@ -5,6 +5,7 @@
 		"preview": "zenn preview"
 	},
 	"dependencies": {
+		"markdown-it": "^12.3.2",
 		"zenn-cli": "^0.1.101"
 	}
 }
