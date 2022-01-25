@@ -1,11 +1,10 @@
 ---
-title: "demodemodemo"
+title: "PC効率化Tips - Obsidian編"
 emoji: "📑"
 type: "tech"
-topics: []
+topics: ["Obsidian"]
 published: false
 aliases: []
-progress: "Not Start"
 ---
 
 # はじめに
